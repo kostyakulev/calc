@@ -436,6 +436,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "kalculyator";
             this.Text = "kalculyator";
             this.Load += new System.EventHandler(this.Form1_Load);
